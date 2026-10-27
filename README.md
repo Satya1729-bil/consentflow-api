@@ -1,6 +1,10 @@
-# ConsentFlow API — Backend Engineering Portfolio Project
+# ConsentFlow API
 
-A Java Spring Boot backend that models a digital consent / document approval workflow. It is an independent learning project inspired by common enterprise eConsent/eSignature patterns; it is not Certinal's software and does not perform legally valid digital signatures.
+**Run multi-step consent workflows with an audit trail for every change.**
+
+Create a workflow, add recipients in signing order, send it, and record each person's response. State rules block invalid steps, so you can't send a workflow with no recipients, and every change goes into an audit trail. Swagger UI and Docker Compose let you run the full flow in a few minutes.
+
+> This is an independent learning project inspired by common enterprise eConsent and eSignature patterns. It is not Certinal's software and does not create legally valid digital signatures.
 
 ## Tech stack
 
